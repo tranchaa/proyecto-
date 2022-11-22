@@ -1,0 +1,14 @@
+@import url("https://unpkg.com/leaflet@1.9.2/dist/leaflet.css");
+
+#map {
+    margin-left: 50px;
+    margin-bottom: 150px;
+    margin-top: 20px;
+    width: 70%;
+    min-height: 600px;
+    max-height: 600px;
+    height: 100%;
+
+}   
+
+/*# sourceMappingURL=/main.74ea0137.css.map */

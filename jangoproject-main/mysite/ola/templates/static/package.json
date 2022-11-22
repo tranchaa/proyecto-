@@ -1,0 +1,34 @@
+{
+  "name": "leaflet",
+  "version": "1.0.0",
+  "description": "proyectos con libreria leaflet",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel ./index.html --open",
+    "build": "npx parcel index.html --public-url '.'"
+  },
+  "keywords": [
+    "leaflet",
+    "typescrip",
+    "map",
+    "mapas",
+    "geojson",
+    "polyline",
+    "marker",
+    "points"
+  ],
+  "author": "trancha <panchatron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0",
+    "parcel-bundler": "^1.12.5",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.9.3"
+  }
+}
